@@ -1,0 +1,136 @@
+
+body{
+    margin: 0%;
+    
+}
+
+#top{
+    background-color: #476efc;
+    color: aliceblue;
+    text-align: center;
+    padding: 0.5%;
+
+}
+
+h1{
+    color: #476efc;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    width: 60%;
+}
+
+nav{
+   display: flex;
+   width: 100%;
+ 
+}
+
+.navigation {
+    display:flex;
+    justify-content: flex-end;
+    justify-content: space-around;
+    width: 40%;
+    list-style-type: none;
+
+}
+
+#bookingbtn{
+    background-color: #0099ff;
+    border: #0099ff solid;
+    border-radius: 10px;
+    padding: 15px;
+    color: aliceblue;
+    font-weight: bold;
+}
+
+#one {
+    display: flex;
+    border: #cbeaff;
+    background-color: #cbeaff;
+    padding: 10%;
+    
+}
+
+main{
+    background-color: #afdfff;
+    display: flex;
+    justify-content: flex-end;
+    justify-content: space-between;
+    padding: 35px;
+}
+
+h2{
+    font-size: 65px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+
+.herotxt{
+    font-size: 30px;
+}
+
+#btn1{
+    background-color: #0099ff;
+    border: #0099ff solid;
+    border-radius: 10px;
+    padding: 15px;
+    color: aliceblue;
+    font-weight: bold;
+}
+
+#btn2{
+    background-color: #f0f8ff;
+    border: #f0f8ff solid;
+    border-radius: 10px;
+    padding: 15px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+#treatments{
+    display: flex;
+    justify-content: space-between;
+}
+
+.treatments{
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 1%;
+   
+}
+
+h3{
+    font-size: 50px;
+}
+
+#Questions{
+    display: flex;
+    justify-content: center;
+    background-color: #79ccff;
+
+}
+
+.Questions{
+    border: #edf8ff solid 2px;
+    background-color: #edf8ff;
+    border-radius: 10px;
+    text-align: center;
+    padding: 1%;
+    margin-bottom: 2%;
+    list-style: none;
+}
+
+
+table{
+    border: #0099ff solid 2px;
+    width: 100%;
+    text-align: left;
+}
+
+tr{
+  width: 50%;
+}
+
+td{
+  width: 50%;
+}
